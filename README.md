@@ -31,7 +31,12 @@ Colocar no Head do seu html as seguintes linhas
 
 O compilado gera uma pasta com imagens tbm, caso vc queira adicionar em um projeto seu , é valido vc copiar a pasta dist, ou renomear ela com imagens, js e sem o html, e usar com o path correto nos outros lugares.
 
-## 
+## Docker
+p/ usar o dockerfile
+
+docker build -t my-apache2 .
+docker run -dit --name my-running-app -p 8080:80 my-apache2
+ 
 ## Project setup
 ```
 yarn install
