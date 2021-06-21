@@ -8,6 +8,6 @@ module.exports = {
       extract: false,
     },
   chainWebpack: config =>{
-    config.output.filename('zipzop.js')
+    config.output.filename('$PROJECT_NAME.js')
   }
 }
